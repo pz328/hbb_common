@@ -117,13 +117,13 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["rs-ny.rustdesk.com"];
-pub const RS_PUB_KEY: &str = "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["rdp.9047695.xyz"];
+pub const RS_PUB_KEY: &str = "zoKVk+eVjwLSjcxlEa342fmalmt1vCN9fPnfoG+ldZk=";
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
-pub const RELAY_PORT: i32 = 21117;
-pub const WS_RENDEZVOUS_PORT: i32 = 21118;
-pub const WS_RELAY_PORT: i32 = 21119;
+pub const RENDEZVOUS_PORT: i32 = 41236;
+pub const RELAY_PORT: i32 = 41237;
+pub const WS_RENDEZVOUS_PORT: i32 = 41238;
+pub const WS_RELAY_PORT: i32 = 41239;
 
 #[inline]
 pub fn is_service_ipc_postfix(postfix: &str) -> bool {
